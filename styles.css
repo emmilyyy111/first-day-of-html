@@ -65,7 +65,7 @@ button {
 
 }
 
- a:hover {
+ button:hover {
      background-color:mediumorchid;
  }
 
