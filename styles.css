@@ -1,0 +1,74 @@
+:root {
+    --blue: #19a1ea;
+}
+
+body {
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  header {
+    background-color: royalblue;
+    color: skyblue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  main {background-color: turquoise;
+      color: slategray;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-transform: lowercase;
+      letter-spacing: 3px;
+
+  }
+  footer{
+      height: 200px;
+      background-color: teal;
+      text-align: end;
+      text-transform: capitalize;
+  }
+
+  .menu-items {
+      background-color: thistle;
+  }
+
+  /* here im selecting id */
+#first-p {
+  color:violet;
+
+}
+
+.all-spans > span > strong {
+    background-color: lightpink;
+}
+
+button {
+    color:rgb(238, 6, 6);
+    /* padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+
+    padding: 10px 40px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    background: rgb(97,89,217);
+    /* background: linear-gradient(90deg,
+     rgba(97,89,217,1) 15%,
+      rgba(9,9,121,1) 93%,
+       rgba(0,212,255,1) 100%
+       ); */
+
+}
+
+ a:hover {
+     background-color:mediumorchid;
+ }
+
+ button:focus {
+     color:mediumspringgreen;
+ }
